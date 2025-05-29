@@ -35,10 +35,11 @@ section#login {
 
     background-color: white;
     height: 500px;
-    width: 250px;
+    width: 70%;
     border-radius: 20px;
     box-shadow: 2px 2px 4px #3d1c53;
-
+    transition: width 0.2s,height 0.2s;
+    transition-timing-function: ease;
 
     }
     div#imagem {
@@ -52,5 +53,9 @@ section#login {
         padding: 10px;
     }
     #formulario h1 {
-        font-size: 1.8em;
+        text-align: center;
+        margin-bottom: 10px;
+    }
+    #formulario p {
+        font-size: 0.8em;
     }
