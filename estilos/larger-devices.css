@@ -17,6 +17,7 @@ Extra large devices (large laptops and desktops, 1200px and up)
     }
     section#login {
         width: 90vw;
+        height: 360px;
     }
     div#imagem {
         width: 40%;
@@ -34,21 +35,23 @@ Extra large devices (large laptops and desktops, 1200px and up)
         background-image: linear-gradient(to top, #49a09d, #5f2c82);
     }   
     section#login {
-        width: 960px
+        width: 960px;
+        height: 370px;
     }
     div#imagem {
         float: right;
-        width: 50%;
+        width: 45%;
         height: 100%;
     }
     div#formulario {
         float: left;
-        width: 50%;
+        width: 55%;
     }
     #formulario h1 {
         font-size: 2em;
     }
     #formulario p {
-        font-size: 0.8em;
+        font-size: 0.9em;
+        margin: 20px 0px;
     }
 }
