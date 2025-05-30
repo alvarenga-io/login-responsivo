@@ -20,15 +20,16 @@ body, html {
 }
 
 main {
-    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
     height: 100vh;
     width: 100vw;
 }
 
-section#login {
-    position: absolute;
-    left: 50%;
-    top: 50%;
+section#login {    
+    display: flex;
+    flex-direction: column ;
     overflow: hidden;
 
     background-color: white;
@@ -36,19 +37,20 @@ section#login {
     width: 300px;
     border-radius: 20px;
     box-shadow: 2px 2px 4px #3d1c53;
-    transform: translate(-50%, -50%);
     transition: width 0.2s,height 0.2s;
     transition-timing-function: ease;
 
     }
     div#imagem {
-        display: block;
         background: #5f2c82 url(../imagem/pattern.jpg)  ;
         background-size: cover;
         height: 40%;
     }
     div#formulario {
-        display: block;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        flex:1;
         padding: 10px;
     }
     #formulario h1 {
@@ -59,7 +61,8 @@ section#login {
     }
     #formulario p {
         font-size: 0.8em;
-                color: #555;
+        color: #555;
+        margin-bottom: 10px;
 
     }
     div.campo {
