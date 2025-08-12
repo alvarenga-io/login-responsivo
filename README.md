@@ -4,8 +4,8 @@ Projeto foi desenvolvido com o objetivo da por em prática os conceitos aprendid
 
 ## O que aprendi:
 
-Responsividade do conteúdo.
-Alterar o posicionamento da imagem por meio do Grid.
+- Responsividade do conteúdo.
+- Alterar o posicionamento da imagem por meio do Grid.
 
 ## Preview
 ![preview](imagem/preview.png)
