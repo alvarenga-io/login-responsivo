@@ -1,6 +1,6 @@
 # Página de Login
 
-Projeto foi desenvolvido com o objetivo da por em prática os conceitos aprendidos de Grid Layout.
+O Projeto foi desenvolvido com o objetivo de pôr em prática os conceitos aprendidos de Grid Layout.
 
 ## O que aprendi:
 
